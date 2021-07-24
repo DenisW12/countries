@@ -67,8 +67,6 @@ class Countries extends Base
         Hydrator $hydrator = null,
         Repository $repository = null
     ) {
-        $a = new \PragmaRX\Countries\Package\Services\Cache\Service();
-
         $this->helper = $this->instantiateHelper($helper);
 
         $this->config = $this->instantiateConfig($config);
